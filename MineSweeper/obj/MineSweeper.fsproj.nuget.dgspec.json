@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Koodiprotot\\fsharpprojects\\MineConsole\\MineSweeper\\MineSweeper\\MineSweeper.fsproj": {}
+  },
+  "projects": {
+    "D:\\Koodiprotot\\fsharpprojects\\MineConsole\\MineSweeper\\MineSweeper\\MineSweeper.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Koodiprotot\\fsharpprojects\\MineConsole\\MineSweeper\\MineSweeper\\MineSweeper.fsproj",
+        "projectName": "MineSweeper",
+        "projectPath": "D:\\Koodiprotot\\fsharpprojects\\MineConsole\\MineSweeper\\MineSweeper\\MineSweeper.fsproj",
+        "packagesPath": "C:\\Users\\pekou\\.nuget\\packages\\",
+        "outputPath": "D:\\Koodiprotot\\fsharpprojects\\MineConsole\\MineSweeper\\MineSweeper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pekou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.102\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "FSPowerPack.Community": {
+              "target": "Package",
+              "version": "[3.0.0, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

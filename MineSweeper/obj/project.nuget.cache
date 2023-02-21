@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "dgSpecHash": "UG84KeB0gA7o5+jangduMhkGK7cQAr2dWcSidA2c1j4YQkqiO1sTJ28Wh2eo/QWO8Q1i7nP9ahkWPsUgPpJJPA==",
+  "success": true,
+  "projectFilePath": "D:\\Koodiprotot\\fsharpprojects\\MineConsole\\MineSweeper\\MineSweeper\\MineSweeper.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pekou\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512",
+    "C:\\Users\\pekou\\.nuget\\packages\\fspowerpack.community\\3.0.0\\fspowerpack.community.3.0.0.nupkg.sha512",
+    "C:\\Users\\pekou\\.nuget\\packages\\fspowerpack.core.community\\2.0.0\\fspowerpack.core.community.2.0.0.nupkg.sha512",
+    "C:\\Users\\pekou\\.nuget\\packages\\fspowerpack.linq.community\\2.0.0\\fspowerpack.linq.community.2.0.0.nupkg.sha512",
+    "C:\\Users\\pekou\\.nuget\\packages\\fspowerpack.metadata.community\\2.0.0\\fspowerpack.metadata.community.2.0.0.nupkg.sha512",
+    "C:\\Users\\pekou\\.nuget\\packages\\fspowerpack.parallel.seq.community\\2.0.0\\fspowerpack.parallel.seq.community.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FSPowerPack.Linq.Community 2.0.0 depends on FSPowerPack.Core.Community (>= 1.9.9.9 && < 2.9.9.9) but FSPowerPack.Core.Community 1.9.9.9 was not found. An approximate best match of FSPowerPack.Core.Community 2.0.0 was resolved.",
+      "libraryId": "FSPowerPack.Core.Community",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FSPowerPack.Metadata.Community 2.0.0 depends on FSPowerPack.Core.Community (>= 1.9.9.9 && < 2.9.9.9) but FSPowerPack.Core.Community 1.9.9.9 was not found. An approximate best match of FSPowerPack.Core.Community 2.0.0 was resolved.",
+      "libraryId": "FSPowerPack.Core.Community",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FSPowerPack.Parallel.Seq.Community 2.0.0 depends on FSPowerPack.Core.Community (>= 1.9.9.9 && < 2.9.9.9) but FSPowerPack.Core.Community 1.9.9.9 was not found. An approximate best match of FSPowerPack.Core.Community 2.0.0 was resolved.",
+      "libraryId": "FSPowerPack.Core.Community",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FSPowerPack.Community 3.0.0 does not provide an inclusive lower bound for dependency FSPowerPack.Linq.Community. An approximate best match of FSPowerPack.Linq.Community 2.0.0 was resolved.",
+      "libraryId": "FSPowerPack.Linq.Community",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FSPowerPack.Community 3.0.0 does not provide an inclusive lower bound for dependency FSPowerPack.Metadata.Community. An approximate best match of FSPowerPack.Metadata.Community 2.0.0 was resolved.",
+      "libraryId": "FSPowerPack.Metadata.Community",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FSPowerPack.Community 3.0.0 does not provide an inclusive lower bound for dependency FSPowerPack.Parallel.Seq.Community. An approximate best match of FSPowerPack.Parallel.Seq.Community 2.0.0 was resolved.",
+      "libraryId": "FSPowerPack.Parallel.Seq.Community",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win7-x86"
+      ]
+    }
+  ]
+}

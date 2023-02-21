@@ -1,0 +1,515 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "FSharp.Core/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.0/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "FSPowerPack.Community/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FSPowerPack.Linq.Community": "(, )",
+          "FSPowerPack.Metadata.Community": "(, )",
+          "FSPowerPack.Parallel.Seq.Community": "(, )"
+        }
+      },
+      "FSPowerPack.Core.Community/2.0.0": {
+        "type": "package",
+        "compile": {
+          "Lib/Net40/FSharp.PowerPack.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "Lib/Net40/FSharp.PowerPack.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FSPowerPack.Linq.Community/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FSPowerPack.Core.Community": "[1.9.9.9, 2.9.9.9)"
+        },
+        "compile": {
+          "Lib/Net40/FSharp.PowerPack.Linq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "Lib/Net40/FSharp.PowerPack.Linq.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FSPowerPack.Metadata.Community/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FSPowerPack.Core.Community": "[1.9.9.9, 2.9.9.9)"
+        },
+        "compile": {
+          "Lib/Net40/FSharp.PowerPack.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "Lib/Net40/FSharp.PowerPack.Metadata.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FSPowerPack.Parallel.Seq.Community/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FSPowerPack.Core.Community": "[1.9.9.9, 2.9.9.9)"
+        },
+        "compile": {
+          "Lib/Net40/FSharp.PowerPack.Parallel.Seq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "Lib/Net40/FSharp.PowerPack.Parallel.Seq.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win7-x86": {
+      "FSharp.Core/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.0/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "FSPowerPack.Community/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FSPowerPack.Linq.Community": "(, )",
+          "FSPowerPack.Metadata.Community": "(, )",
+          "FSPowerPack.Parallel.Seq.Community": "(, )"
+        }
+      },
+      "FSPowerPack.Core.Community/2.0.0": {
+        "type": "package",
+        "compile": {
+          "Lib/Net40/FSharp.PowerPack.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "Lib/Net40/FSharp.PowerPack.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FSPowerPack.Linq.Community/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FSPowerPack.Core.Community": "[1.9.9.9, 2.9.9.9)"
+        },
+        "compile": {
+          "Lib/Net40/FSharp.PowerPack.Linq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "Lib/Net40/FSharp.PowerPack.Linq.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FSPowerPack.Metadata.Community/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FSPowerPack.Core.Community": "[1.9.9.9, 2.9.9.9)"
+        },
+        "compile": {
+          "Lib/Net40/FSharp.PowerPack.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "Lib/Net40/FSharp.PowerPack.Metadata.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FSPowerPack.Parallel.Seq.Community/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FSPowerPack.Core.Community": "[1.9.9.9, 2.9.9.9)"
+        },
+        "compile": {
+          "Lib/Net40/FSharp.PowerPack.Parallel.Seq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "Lib/Net40/FSharp.PowerPack.Parallel.Seq.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FSharp.Core/7.0.0": {
+      "sha512": "8hzwUheAViWMAHWQTr6kR/19C4LhjZ4TlftKfNeZO9y7XnRUzLTK6FJS1C+0oObuUe0e4KndYxjWE+Zgea9YXQ==",
+      "type": "package",
+      "path": "fsharp.core/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "fsharp.core.7.0.0.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/FSharp.Core.dll",
+        "lib/netstandard2.1/FSharp.Core.xml",
+        "lib/netstandard2.1/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "FSPowerPack.Community/3.0.0": {
+      "sha512": "tkBrn/2KDqn1FvLjmrchsu75+iztqxW9I1kg7g4Wyy+7maHQEU9gJPRoPal3zL8w6hfkTWmMUcjqQiBLbPIcdQ==",
+      "type": "package",
+      "path": "fspowerpack.community/3.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/InstallationDummyFile.txt",
+        "Tools/FSharp.Compiler.CodeDom.dll",
+        "Tools/FSharp.Compiler.CodeDom.xml",
+        "Tools/FSharp.PowerPack.Build.Tasks.dll",
+        "Tools/FSharp.PowerPack.Build.Tasks.xml",
+        "Tools/FSharp.PowerPack.Compatibility.dll",
+        "Tools/FSharp.PowerPack.Compatibility.xml",
+        "Tools/FSharp.PowerPack.targets",
+        "Tools/fslex.exe",
+        "Tools/fsyacc.exe",
+        "Tools/install.ps1",
+        "fspowerpack.community.3.0.0.nupkg.sha512",
+        "fspowerpack.community.nuspec"
+      ]
+    },
+    "FSPowerPack.Core.Community/2.0.0": {
+      "sha512": "vk23h8bC1v+LK8Tdc5FZLvCXPbWRDDSyrrarHc1l0RZrFYeafnTPp1Qe6mPDGQ9WqCOssRN7eLLg1p35aA/XKQ==",
+      "type": "package",
+      "path": "fspowerpack.core.community/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Lib/Net20/FSharp.PowerPack.dll",
+        "Lib/Net20/FSharp.PowerPack.xml",
+        "Lib/Net40/FSharp.PowerPack.dll",
+        "Lib/Net40/FSharp.PowerPack.xml",
+        "Lib/sl3/FSharp.PowerPack.Compatibility.dll",
+        "Lib/sl3/FSharp.PowerPack.dll",
+        "Lib/sl4/FSharp.PowerPack.Compatibility.dll",
+        "Lib/sl4/FSharp.PowerPack.dll",
+        "fspowerpack.core.community.2.0.0.nupkg.sha512",
+        "fspowerpack.core.community.nuspec"
+      ]
+    },
+    "FSPowerPack.Linq.Community/2.0.0": {
+      "sha512": "KhjgcSkwnezjF43AZKOivhhQhiy2qw+FqfC9Nu/KiTzYbgUBT+74XL44CVRvrwb5OdxlX9qpgzt9j4ww53pcRg==",
+      "type": "package",
+      "path": "fspowerpack.linq.community/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Lib/Net20/FSharp.PowerPack.Linq.dll",
+        "Lib/Net20/FSharp.PowerPack.Linq.xml",
+        "Lib/Net40/FSharp.PowerPack.Linq.dll",
+        "Lib/Net40/FSharp.PowerPack.Linq.xml",
+        "fspowerpack.linq.community.2.0.0.nupkg.sha512",
+        "fspowerpack.linq.community.nuspec"
+      ]
+    },
+    "FSPowerPack.Metadata.Community/2.0.0": {
+      "sha512": "3HCl+b+UQ7dcpBLxm4eaCTxKdW2j5zflCv2pNvX8SNjwniHoxcNMm7F7x+RRULFTRi5E5+9UwCTZ7YlbJ3M7Jg==",
+      "type": "package",
+      "path": "fspowerpack.metadata.community/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Lib/Net20/FSharp.PowerPack.Metadata.dll",
+        "Lib/Net20/FSharp.PowerPack.Metadata.xml",
+        "Lib/Net40/FSharp.PowerPack.Metadata.dll",
+        "Lib/Net40/FSharp.PowerPack.Metadata.xml",
+        "fspowerpack.metadata.community.2.0.0.nupkg.sha512",
+        "fspowerpack.metadata.community.nuspec"
+      ]
+    },
+    "FSPowerPack.Parallel.Seq.Community/2.0.0": {
+      "sha512": "63AchEx0X39linzcydLfVFHE3b9wwH0lUwGPsl9R+lK6a48Y2+X2LS79RdCKD12WvNUCSVXZFUmkFq0I6KuSgA==",
+      "type": "package",
+      "path": "fspowerpack.parallel.seq.community/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Lib/Net40/FSharp.PowerPack.Parallel.Seq.dll",
+        "Lib/Net40/FSharp.PowerPack.Parallel.Seq.xml",
+        "Lib/Net40/FSharp.PowerPack.xml",
+        "fspowerpack.parallel.seq.community.2.0.0.nupkg.sha512",
+        "fspowerpack.parallel.seq.community.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "FSPowerPack.Community >= 3.0.0",
+      "FSharp.Core >= 7.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pekou\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Koodiprotot\\fsharpprojects\\MineConsole\\MineSweeper\\MineSweeper\\MineSweeper.fsproj",
+      "projectName": "MineSweeper",
+      "projectPath": "D:\\Koodiprotot\\fsharpprojects\\MineConsole\\MineSweeper\\MineSweeper\\MineSweeper.fsproj",
+      "packagesPath": "C:\\Users\\pekou\\.nuget\\packages\\",
+      "outputPath": "D:\\Koodiprotot\\fsharpprojects\\MineConsole\\MineSweeper\\MineSweeper\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pekou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.102\\FSharp\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "FSPowerPack.Community": {
+            "target": "Package",
+            "version": "[3.0.0, )",
+            "generatePathProperty": true
+          },
+          "FSharp.Core": {
+            "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[7.0.0, )",
+            "generatePathProperty": true
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FSPowerPack.Linq.Community 2.0.0 depends on FSPowerPack.Core.Community (>= 1.9.9.9 && < 2.9.9.9) but FSPowerPack.Core.Community 1.9.9.9 was not found. An approximate best match of FSPowerPack.Core.Community 2.0.0 was resolved.",
+      "libraryId": "FSPowerPack.Core.Community",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FSPowerPack.Metadata.Community 2.0.0 depends on FSPowerPack.Core.Community (>= 1.9.9.9 && < 2.9.9.9) but FSPowerPack.Core.Community 1.9.9.9 was not found. An approximate best match of FSPowerPack.Core.Community 2.0.0 was resolved.",
+      "libraryId": "FSPowerPack.Core.Community",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FSPowerPack.Parallel.Seq.Community 2.0.0 depends on FSPowerPack.Core.Community (>= 1.9.9.9 && < 2.9.9.9) but FSPowerPack.Core.Community 1.9.9.9 was not found. An approximate best match of FSPowerPack.Core.Community 2.0.0 was resolved.",
+      "libraryId": "FSPowerPack.Core.Community",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FSPowerPack.Community 3.0.0 does not provide an inclusive lower bound for dependency FSPowerPack.Linq.Community. An approximate best match of FSPowerPack.Linq.Community 2.0.0 was resolved.",
+      "libraryId": "FSPowerPack.Linq.Community",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FSPowerPack.Community 3.0.0 does not provide an inclusive lower bound for dependency FSPowerPack.Metadata.Community. An approximate best match of FSPowerPack.Metadata.Community 2.0.0 was resolved.",
+      "libraryId": "FSPowerPack.Metadata.Community",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FSPowerPack.Community 3.0.0 does not provide an inclusive lower bound for dependency FSPowerPack.Parallel.Seq.Community. An approximate best match of FSPowerPack.Parallel.Seq.Community 2.0.0 was resolved.",
+      "libraryId": "FSPowerPack.Parallel.Seq.Community",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win7-x86"
+      ]
+    }
+  ]
+}
